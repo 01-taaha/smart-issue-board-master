@@ -1,0 +1,210 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+
+.navbar {
+  background: #1f2937;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.navbar button {
+  background: #ef4444;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.auth-box {
+  background: white;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.auth-box h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.issue-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.issue-form input,
+.issue-form textarea,
+.issue-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.issue-form button {
+  background: #10b981;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.issue-list {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.issue-card {
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.issue-card h4 {
+  margin-bottom: 5px;
+}
+
+.issue-card p {
+  margin-bottom: 10px;
+  color: #374151;
+}
+
+.issue-card input,
+.issue-card textarea,
+.issue-card select {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 6px;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: white;
+}
+
+.badge.low {
+  background: gray;
+}
+
+.badge.medium {
+  background: orange;
+}
+
+.badge.high {
+  background: red;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.actions button:first-child {
+  background: #2563eb;
+  color: white;
+}
+
+.actions button:last-child {
+  background: #dc2626;
+  color: white;
+}
+
+.status-btn {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.status-btn.open {
+  background: #2563eb;
+  color: white;
+}
+
+.status-btn.inprogress {
+  background: #f59e0b;
+  color: white;
+}
+
+.status-btn.done {
+  background: #16a34a;
+  color: white;
+  cursor: default;
+}
+
+.status-btn:hover {
+  opacity: 0.85;
+  transform: scale(1.03);
+}
